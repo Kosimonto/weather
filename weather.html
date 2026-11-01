@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="weather.css">
+     <title>Weather Web</title>
+</head>
+<body>
+     <div class="container">
+     
+          <div class="search">
+               <input type="text" id="city" placeholder="Enter Ur City Name..." spellcheck="false">
+               <button id="search-btn">Search City</button>
+          </div>
+
+          <!-- Result Grid Container -->
+          <div class="weather">
+               <img src="./img/cloud2.1.jpg" alt="weather-img">
+               <h1 class="temp">22 °c</h1>
+               <h2 class="city">Tunisia</h2>
+               <div class="details">
+                    <div class="col">
+                         <img src="./img/humi.png" alt="">
+                         <div>
+                              <p class="humidity">50%</p>
+                              <p>Humidity</p>
+                         </div>
+                    </div>
+                    <div class="col">
+                         <img src="./img/wind.jpg" alt="">
+                         <div>
+                              <p class="wind">50%</p>
+                              <p>Wind Speed</p>
+                         </div>     
+                    </div>
+               </div>
+          </div>
+     </div>
+
+
+<script src="weather.js"></script>
+</body>
+</html>
